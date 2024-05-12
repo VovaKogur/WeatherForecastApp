@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApplication1\WebApi.csproj", "{9DFEC523-E6AB-48F7-8272-B7D121D46792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{853AB948-BA10-4C48-BD5D-C5FDE877BF38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{EBEECBDA-AABD-4B31-90C7-D4E0E6E32300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B5CA1BC9-7A51-4618-8A87-9D7D5ECEADE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast.Application", "WeatherForecast.Application\WeatherForecast.Application.csproj", "{6C722C40-C155-48A2-9D49-1E759A106E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast.DTO", "WeatherForecast.DTO\WeatherForecast.DTO.csproj", "{D56F03C7-790F-415A-85E3-356BF28C4E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast.Domain", "WeatherForecast.Domain\WeatherForecast.Domain.csproj", "{A8EC828B-C5E1-480A-95DC-F47B1A865766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast.Infrastructure", "WeatherForecast.Infrastructure\WeatherForecast.Infrastructure.csproj", "{0B2E6922-E7F7-4537-B281-2EA0A0C42C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DFEC523-E6AB-48F7-8272-B7D121D46792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFEC523-E6AB-48F7-8272-B7D121D46792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFEC523-E6AB-48F7-8272-B7D121D46792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFEC523-E6AB-48F7-8272-B7D121D46792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C722C40-C155-48A2-9D49-1E759A106E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C722C40-C155-48A2-9D49-1E759A106E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C722C40-C155-48A2-9D49-1E759A106E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C722C40-C155-48A2-9D49-1E759A106E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56F03C7-790F-415A-85E3-356BF28C4E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56F03C7-790F-415A-85E3-356BF28C4E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56F03C7-790F-415A-85E3-356BF28C4E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56F03C7-790F-415A-85E3-356BF28C4E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EC828B-C5E1-480A-95DC-F47B1A865766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EC828B-C5E1-480A-95DC-F47B1A865766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EC828B-C5E1-480A-95DC-F47B1A865766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EC828B-C5E1-480A-95DC-F47B1A865766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2E6922-E7F7-4537-B281-2EA0A0C42C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2E6922-E7F7-4537-B281-2EA0A0C42C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2E6922-E7F7-4537-B281-2EA0A0C42C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2E6922-E7F7-4537-B281-2EA0A0C42C99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DFEC523-E6AB-48F7-8272-B7D121D46792} = {853AB948-BA10-4C48-BD5D-C5FDE877BF38}
+		{6C722C40-C155-48A2-9D49-1E759A106E20} = {853AB948-BA10-4C48-BD5D-C5FDE877BF38}
+		{D56F03C7-790F-415A-85E3-356BF28C4E87} = {853AB948-BA10-4C48-BD5D-C5FDE877BF38}
+		{A8EC828B-C5E1-480A-95DC-F47B1A865766} = {EBEECBDA-AABD-4B31-90C7-D4E0E6E32300}
+		{0B2E6922-E7F7-4537-B281-2EA0A0C42C99} = {B5CA1BC9-7A51-4618-8A87-9D7D5ECEADE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0965156C-6BAD-44C7-A5F5-41661B132CAA}
+	EndGlobalSection
+EndGlobal
