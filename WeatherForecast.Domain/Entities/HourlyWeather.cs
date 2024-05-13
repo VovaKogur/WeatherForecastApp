@@ -2,14 +2,34 @@
 
 namespace WeatherForecast.Domain.Entities
 {
-    public class HourlyWeather
+    public class HourlyWeather : EntityBase
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; private set; }
         [Range(0, 23)]
-        public int Hour { get; set; }
-        public double TemperatureC { get; set; }
-        public string Summary { get; set; }
-        public Guid WeatherId { get; set; }
-        public Weather Weather { get; set; }
+        public int Hour { get; private set; }
+        public double TemperatureC { get; private set; }
+        public string Summary { get; private set; }
+        public Guid WeatherId { get; private set; }
+        public Weather Weather { get; private set; }
+        public HourlyWeather(Guid id, int hour, double temperatureC, string summary, Guid weatherId, Weather weather)
+        {
+            Id = id;
+            Hour = hour;
+            TemperatureC = temperatureC;
+            Summary = summary;
+            WeatherId = weatherId;
+            Weather = weather;
+        }
+
+        public void Update(int hour, double temperatureC, string summary, Guid weatherId, Weather weather)
+        {
+            Hour = hour;
+            TemperatureC = temperatureC;
+            Summary = summary;
+            WeatherId = weatherId;
+            Weather = weather;
+        }
+
+
     }
 }
